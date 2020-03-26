@@ -27040,6 +27040,25 @@ select.form-control-sm ~ .select2-container--default .select2-selection--multipl
   color: #ced4da;
 }
 
+.tab-pane > .overlay-wrapper {
+  position: relative;
+}
+
+.tab-pane > .overlay-wrapper > .overlay {
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  margin-top: -1.25rem;
+  margin-left: -1.25rem;
+  height: calc(100% + 2 * 1.25rem);
+  width: calc(100% + 2 * 1.25rem);
+}
+
+.tab-pane > .overlay-wrapper > .overlay.dark {
+  color: #ffffff;
+}
+
 .ribbon-wrapper {
   height: 70px;
   overflow: hidden;
